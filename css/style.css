@@ -1,0 +1,181 @@
+body{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.header-inner{
+    display: flex;
+    width:960px;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 60px;
+    vertical-align: middle;
+}
+
+/* .socials{
+    border: 1px green solid; 
+    margin-right: 300px;
+    padding-right: 20px;
+} */
+
+.title{
+   /* margin-left: 300px;
+    font-size: 13px;*/
+    font-family: 'Butterfly Kids', cursive;
+}
+
+/* h1{
+    margin-top: -1px;
+    padding-top: 10px;
+} */
+.socials-list{
+    list-style: none;
+    display: flex;
+}
+
+.header-img{
+    padding-left: 10px;
+    margin-left: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+h2{
+    margin: 0px;
+}
+
+main{
+    padding: 0px;
+}
+
+.main-content-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin-left: 200px;
+}
+
+.main-content{
+    background-color: rgb(223, 124, 140);
+    /* display: flex;
+    justify-content: space-between; */
+    height: 400px;
+}
+
+.main-content-text{
+    padding-top: 25px;
+    color: #fff;
+    font-size: 18px;
+    width: 350px;
+}
+
+.main-content-image{
+    /* border: 1px blue solid; */
+    padding-top: 75px;
+}
+
+.mac{
+    height: 300px;
+    width: 400px;
+}
+
+.button{
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+    background: black;
+    color: #fff;
+}
+
+.button:hover{
+    background: rgb(250, 124, 140);
+}
+
+.main-content2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+    margin: 10px auto;
+}
+
+.divider{
+    background: pink;
+    height: 10px;
+    width: 100%;
+}
+
+.main-content3{
+    display: flex;
+    width: 960px;
+    margin: 20px auto;
+
+}
+
+.mac-img{
+    position: relative;
+    bottom: 74px;
+    /* border: 1px blue solid; */
+    height: 191px;
+    width: 267px;
+    right: 338px;
+    text-align: center;
+}
+
+.mag-glass-image{
+    padding-left: 40px;
+    padding-top: 12px;
+    width: 60px;
+    height: 60px;
+}
+
+.mag-glass-box{
+    background: black;
+    margin: 10px;
+    border: grey 10px solid;
+    padding-right: 5px;
+    height: 100px;
+    width: 130px;
+    box-shadow: 0px 0.8px 20px .5px gray;
+}
+
+.main-content3-imgs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote-list{
+    list-style: none;
+}
+
+.quote{
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    /* justify-content: space-between; */
+    color: #fff;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.footer-inner{
+    display: flex;
+    width:960px;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.footer-text{
+    /* margin-left: 300px; */
+    font-size: 13px;
+    padding-top: 20px;
+}
